@@ -1,0 +1,9 @@
+<%- include('partials/header') %>
+    <form action="/submit" method="POST">
+        <div class=" secret-form form-group form-control-lg">
+          <p style="text-align: center; font-size: 4vh; padding: 20px;">Enter your Secret</p>
+          <input autocomplete="off" name="inputSecret" style = "width: 90%;height: 60px; margin: auto;" class="form-control" >
+          <button type="submit" class="btn btn-primary btn-lg" style="background-color: #00FFDD; margin: 25px; color: black;">Submit</button>
+        </div>
+    </form>
+<%- include('partials/footer') %>
